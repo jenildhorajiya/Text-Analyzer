@@ -1,0 +1,48 @@
+body{
+  background-color: #E8F9FD
+}
+
+.wrapper{
+  margin-left: 20%;
+}
+
+textarea{
+  background-color: #79DAE8;
+}
+
+button{
+  display: block;
+  margin-left: 30%
+}
+
+.genRes{
+   margin-left: 27%;
+}
+
+.box-container{
+  height: 100%;
+  width: 100%;
+  padding: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.box{
+  width: 50%;
+  height: 100%;
+  border: solid;
+  border-color: #2155CD;
+  text-align: center;
+  margin-left: 80px;
+  margin-bottom: 30px;
+  padding-top: 30px;
+}
+
+h1{
+  font-size: 80px;
+}
+
+p{
+  font-size: 25px;
+}
